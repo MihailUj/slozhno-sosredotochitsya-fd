@@ -33,30 +33,30 @@
   width: 70px;
   background-color: initial;
   border: none;
-  font-family: IBM Plex Mono, sans-serif;
+  font-family: var(--font), sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 18px;
   text-align: center;
   text-transform: lowercase;
-  color: #FF0070;
+  color: var(--accent-color);
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid #FF0070;
+  border: 1px solid var(--accent-color);
 }
 
 .header__title {
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 95.7px;
-  font-family: IBM Plex mono, sans-serif;
-  color: #DB00FF;
-  text-shadow: 4px 4px 0 #FF0070;
+  font-family: var(--font), sans-serif;
+  color: var(--main-title-color);
+  text-shadow: 4px 4px 0 var(--accent-color);
 }
 
 .header__text {
-  font-family: IBM Plex Mono, sans-serif;
+  font-family: var(--font), sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
@@ -65,12 +65,12 @@
 }
 
 .title-decor {
-  color: #000028;
-  background-color: #FF0070;
+  color: var(--title-color);
+  background-color: var(--accent-color);
 }
 
 .header__decor {
-  font-family: IBM Plex Mono, sans-serif;
+  font-family: var(--font), sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
@@ -79,7 +79,7 @@
   right: 19px;
   top: 10px;
   text-transform: uppercase;
-  color: #FF0070;
+  color: var(--accent-color);
   display: flex;
   align-items: center;
   gap: 10px;
@@ -91,23 +91,25 @@
   height: 9px;
   width: 9px;
   border-radius: 50%;
-  background-color: #FF0070;
-  box-shadow: 0px 0px 4px 2px #FF0070;
+  background-color: var(--accent-color);
+  box-shadow: 0px 0px 4px 2px var(--accent-color);
 }
+
 .decorated-zone::before{
   content: "";
   display: block;
   height: 25px;
   width: 25px;
-  border-right: #FF0070 solid 2px;
-  border-top: #FF0070 solid 2px;
+  border-right: var(--accent-color) solid 2px;
+  border-top: var(--accent-color) solid 2px;
   align-self: end;
 }
+
 .decorated-zone::after {
   content: "";
   display: block;
   height: 25px;
   width: 25px;
-  border-left: #FF0070 solid 2px;
-  border-bottom: #FF0070 solid 2px;
+  border-left: var(--accent-color) solid 2px;
+  border-bottom: var(--accent-color) solid 2px;
 }
