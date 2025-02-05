@@ -1,20 +1,34 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid var(--text-color);
+}
+
+a:focus {
+  outline: 1px solid var(--text-color);
+}
+
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  background-image: var(--background-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
 }
 
 .header {
   height: 668px;
   width: 100%;
   padding: 10px;
-  background-image: url(../images/cover-image-dark.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center bottom;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 .header__theme-menu {
@@ -113,3 +127,41 @@
   border-left: var(--accent-color) solid 2px;
   border-bottom: var(--accent-color) solid 2px;
 }
+
+.section {
+  padding: 0 10px 50px;
+  font-family: var(--font), sans-serif;
+  font-weight: 700;
+  line-height: 23.4px;
+  font-size: 18px;
+}
+
+.section__title {
+  color: var(--accent-color);
+}
+
+.subsection__title {
+  margin-top: 20px;
+  color: var(--title-color);
+}
+
+.paragraph__title {
+  margin-top: 20px;
+  color: var(--title-color);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.subsection__text {
+  margin-top: 10px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+
+
+

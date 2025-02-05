@@ -6,5 +6,7 @@
   --accent-color: #FF0070;
   --main-title-color: #DB00FF;
   --title-color: #000028; 
+  --text-color: #F1B2CE;
   --font: IBM Plex Mono;
+  --background-image: url(../images/cover-image-dark.png);
 }
