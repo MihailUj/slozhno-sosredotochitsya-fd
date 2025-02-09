@@ -154,7 +154,7 @@ a:focus {
 
 .section__title {
   grid-column: 1/4;
-  color: var(--accent-color);
+  color: var(--title-color);
   font-family: var(--font), sans-serif;
   font-weight: var(--bold-font-weight);
   font-size: var(--font-size);
