@@ -4,9 +4,18 @@
 */
 :root {
   --accent-color: #FF0070;
+  --menu-button-color: var(--accent-color);
+  --menu-button-color-hover: #FF007066;
+  --decore-color: var(--accent-color);
   --main-title-color: #DB00FF;
   --title-color: #000028; 
   --text-color: #F1B2CE;
-  --font: IBM Plex Mono;
+  --background-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
+  --bold-font-weight: 700;
+  --regular-font-weight: 400;
+  --font-size: 18px;
+  --line-height: 23.4px;
+  --font: IBM Plex Mono;
+  --decor-visibility: visible;
 }
