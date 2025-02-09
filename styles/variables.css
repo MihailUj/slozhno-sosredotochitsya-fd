@@ -8,7 +8,8 @@
   --menu-button-color-hover: #FF007066;
   --decore-color: var(--accent-color);
   --main-title-color: #DB00FF;
-  --title-color: #000028; 
+  --title-decor-color: #000028; 
+  --title-color: var(--accent-color);
   --text-color: #F1B2CE;
   --background-color: #000028;
   --background-image: url(../images/cover-image-dark.png);

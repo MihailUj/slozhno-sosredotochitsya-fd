@@ -14,7 +14,8 @@
   --menu-button-color-hover: #32312D66;
   --decore-color: #353430;
   --main-title-color: #FFC2E6;
-  --title-color: #353430; 
+  --title-decor-color: #353430; 
+  --title-color: #353430;
   --text-color: #353430;
   --background-color: #FFF1F7;
   --background-image: url(../images/cover-image-light.png);
@@ -29,7 +30,8 @@
     --menu-button-color-hover: #32312D66;
     --decore-color: #353430;
     --main-title-color: #FFC2E6;
-    --title-color: #353430; 
+    --title-decor-color: #353430; 
+    --title-color: #353430;
     --text-color: #353430;
     --background-color: #FFF1F7;
     --background-image: url(../images/cover-image-light.png);

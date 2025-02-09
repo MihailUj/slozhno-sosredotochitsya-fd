@@ -10,10 +10,11 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color: #FF0070;
-  --menu-button-color: var(var(--accent-color));
+  --menu-button-color: var(--accent-color);
   --menu-button-color-hover: #FF007066;
   --main-title-color: #DB00FF;
-  --title-color: #000028; 
+  --title-decor-color: #000028; 
+  --title-color: var(--accent-color);
   --text-color: #F1B2CE;
   --background-color: #000028;
   --background-image: url(../images/cover-image-dark.png);

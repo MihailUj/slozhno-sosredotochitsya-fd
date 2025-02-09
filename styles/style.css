@@ -163,7 +163,7 @@ a:focus {
 
 .title-decor {
   grid-column: 1/4;
-  color: var(--title-color);
+  color: var(--title-decor-color);
   font-family: var(--font), sans-serif;
   font-weight: var(--bold-font-weight);
   font-size: var(--font-size);
@@ -243,6 +243,7 @@ a:focus {
 
   .main {
     margin-block: 60px;
+    gap: 80px;
   }
 
   .section__title {
@@ -261,6 +262,7 @@ a:focus {
   .section > .title-decor {
     grid-column: 2/4;
   }
+  
   .images-section {
     gap: 20px;
   }
