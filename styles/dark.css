@@ -17,6 +17,25 @@
   --title-color: var(--accent-color);
   --text-color: #F1B2CE;
   --background-color: #000028;
+  --decore-color: var(--accent-color);
   --background-image: url(../images/cover-image-dark.png);
   --decor-visibility: visible;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* Дублируем переменные светлой темы */  
+    --accent-color: #FF0070;
+    --menu-button-color: var(--accent-color);
+    --menu-button-color-hover: #FF007066;
+    --main-title-color: #DB00FF;
+    --title-decor-color: #000028; 
+    --title-color: var(--accent-color);
+    --text-color: #F1B2CE;
+    --background-color: #000028;
+    --decore-color: var(--accent-color);
+    --background-image: url(../images/cover-image-dark.png);
+    --decor-visibility: visible;
+  }
 }
