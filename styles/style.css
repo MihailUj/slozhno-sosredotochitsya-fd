@@ -63,7 +63,7 @@
   color: var(--main-title-color);
   font-family: var(--font), sans-serif;
   font-weight: var(--bold-font-weight);
-  font-size: clamp(7.25rem, 5.769rem + 6.317vw, 9.813rem);
+  font-size: clamp(7.25rem, 7.011rem + 1.02vw, 7.5rem);
   line-height: 95.7px;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
@@ -232,10 +232,17 @@
     padding: 20px;
   }
 
+  .header__title,
+  .footer__title {
+    font-size: clamp(7.5rem, 0.598rem + 14.397vw, 9.813rem);
+    line-height: 99px;
+  }
+
   .header__title {
     position: relative;
     margin-left: -20px;
   }
+
 
   .header__text {
     grid-column: 2/3;
@@ -318,6 +325,11 @@
 }
 
 @media (width >= 1024px) {
+  .header__title,
+  .footer__title {
+    line-height: 129.53px;
+  }
+  
   .header__theme-menu {
     justify-self: center;
     align-self: start;
