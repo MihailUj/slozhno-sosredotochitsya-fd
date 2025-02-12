@@ -167,7 +167,7 @@
   background-color: var(--accent-color);
 }
 
-.normal-weight {
+.subsection__title {
   font-weight: var(--regular-font-weight);
 }
 
